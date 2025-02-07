@@ -251,7 +251,17 @@
     </div>
     <!-- Footer End -->
 
-    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+    <div class="chat-toggle" onclick="toggleChat()">💬</div>
+
+    <div class="chatbot-container" id="chatbot">
+        <div class="chat-header" onclick="toggleChat()">Chatbot</div>
+        <div class="chat-body" id="chat-body"></div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <!-- <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a> -->
 
     <!-- Libraries JS -->
     <script src="lib/jquery/jquery.min.js"></script>

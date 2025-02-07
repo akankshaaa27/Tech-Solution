@@ -63,12 +63,11 @@ h6 {
     text-align: center;
     line-height: 1;
     font-size: 44px;
-    right: 15px;
-    bottom: 15px;
+    right: 70px;
+    bottom: 18px;
     transition: background 0.3s;
     z-index: 9;
 }
-
 .back-to-top i {
     color: #ffffff;
 }
@@ -1232,3 +1231,4 @@ body {
     border-radius: 50%;
     cursor: pointer;
 }
+
